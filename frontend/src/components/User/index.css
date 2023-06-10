@@ -1,0 +1,48 @@
+.form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    padding: 2rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+    list-style-type: none;
+    text-align: left;
+  }
+  .form-container li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  input {
+    margin: 8px 0;
+    padding: 1rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+  }
+
+  button {
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .form-container .title {
+    font-size: 38px;
+    line-height: 15px;
+    color: #03BC2C;
+    text-align: center;
+  }
+
+  .signinbutton {
+    justify-content: center;
+    align-items: center;
+  }
